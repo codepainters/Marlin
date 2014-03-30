@@ -68,7 +68,7 @@ def main(argv):
 	max_adc = int(1023);
 	
 	try:
-		opts, args = getopt.getopt(argv, "h", ["help", "r0=", "t0=", "beta=", "r1=", "r2=", "max-adc="])
+		opts, args = getopt.getopt(argv, "h", ["help", "r0=", "t0=", "beta=", "r1=", "r2=", "max-adc=", "num-temps="])
 	except getopt.GetoptError:
 		usage()
 		sys.exit(2)
@@ -89,6 +89,8 @@ def main(argv):
 			r2 = int(arg)
 		elif opt == "--max-adc":
 			max_adc = int(arg)
+		elif opt == "--num-temps":
+			num_temps = int(arg)
 			
 	increment = int(max_adc/(num_temps-1));
 	
