@@ -441,7 +441,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // default settings
 
 // Steps per unit for Prusa i3
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0, 80.0, 4000.0, 760*1.1}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0, 80.0, 4000.0, 275.0}
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 2, 25}    // (mm/sec)
 
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
