@@ -132,8 +132,8 @@
 // Customized
 // 1000 - heatbed -> SR Passives NTCM-HP-100k-1%, 4k7 pullup
 
-#define TEMP_SENSOR_0 -1
-#define TEMP_SENSOR_1 -1
+#define TEMP_SENSOR_0 1
+#define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_BED 1000
 
